@@ -1,0 +1,6 @@
+# Mac OSX Files
+.DS_Store
+
+# Global/Project Files
+*.tmproj
+tmtags

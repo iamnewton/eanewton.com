@@ -1,0 +1,33 @@
+Options +FollowSymLinks
+Options -MultiViews
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^(www\.eanewton\.com)(:80)? [NC]
+RewriteRule ^(.*) http://eanewton.com/$1 [R=301,L]
+order deny,allow
+
+AddType application/x-httpd-php .php .htm .html
+#php_value auto_prepend_file /mint/config/auto.php
+
+# RewriteCond %{REQUEST_FILENAME} !-d
+# RewriteCond %{REQUEST_FILENAME}\.html -f
+# RewriteRule ^([^/]+)/$ $1.html 
+# 
+# # Forces a trailing slash to be added
+# RewriteCond %{REQUEST_FILENAME} !-f
+# RewriteCond %{REQUEST_FILENAME} !-d
+# RewriteCond %{REQUEST_URI} !(\.[a-zA-Z0-9]{1,5}|/)$
+# RewriteRule (.*)$ /$1/ [R=301,L]
+
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+
+# BEGIN WordPress
+
+# END WordPress
