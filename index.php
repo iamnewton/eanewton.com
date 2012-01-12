@@ -24,6 +24,8 @@
 
     <p><a href="http://maps.google.com/maps?daddr=1901+E+Lambert+Rd,+La+Habra,+CA+90631+(EA+Newton)&geocode=CdvIIJ-0r2yUFYCnBQIdwpr4-A&dirflg=&saddr=&f=d&sll=33.925237,-117.925186&sspn=0.011965,0.015557&ie=UTF8&ll=33.924987,-117.925186&spn=0.011965,0.015557&z=16" rel="external">Need directions to our offices?</a> We are located on the corner of S. Palm St. and E. Lambert Rd. in a small business district, suite number 103.</p>
 
+	<h2></strong>Check out our <a href="/media/2011-year-end-tips.pdf">2011 Year End Tips</a>.</strong></h2>
+
 </div>
 <!-- column1 : end -->
 

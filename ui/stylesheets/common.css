@@ -127,6 +127,7 @@ em { text-decoration: underline; color: #4c4c4c; }
 
 #Home {}
     #Home .main p:first-child { margin: 30px 0 10px; }
+    #Home h2 { font-size: 2em/1em 'Arial'; font-weight: bold; text-transform: uppercase; color: #333; }
 
 #About {}
     #About .main .lisa { float: right; width: 200px; padding: 5px; margin: 0 0 10px 10px; border: 1px solid #000; -moz-border-radius: 3px; }
