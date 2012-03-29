@@ -30,28 +30,25 @@
 	<body id="{{ page.id }}">
 
 		<header class="Header">
+			<hgroup class="logo">
+				<h1 class="name"><a href="{{ site.url }}">Lisa Newton, EA</a></h1>
+				<h2 class="tagline">Tax &amp; Business Services</h2>
+			</hgroup>
 
-			<h1 class="logo"><a href="{{ site.url }}">Lisa Newton, EA</a></h1>
-			<h2 class="tagline">Tax &amp; Business Services</h2>
+			<nav class="Navigation">
+				<ul class="list">
+					<li class="item"><a href="{{ site.url }}">Home</a></li>
+					<li class="item"><a href="{{ site.url }}/about.html">About</a></li>
+					<li class="item"><a href="{{ site.url }}/services.html">Services</a></li>
+					<li class="item"><a href="{{ site.url }}/resources.html">Resources</a></li>
+				</ul>
+			</nav><!-- Navigation : end -->
 
 		</header><!-- Header : end -->
 
-		<div class="Content FLC">
-
-			<article class="main">
-				{{ content }}
-			</article><!-- column1 : end -->
-
-			<nav class="Navigation">
-				<ul class="Nav1">
-					<li><a href="{{ site.url }}">Home</a></li>
-					<li><a href="{{ site.url }}/about.html">About</a></li>
-					<li><a href="{{ site.url }}/services.html">Services</a></li>
-					<li><a href="{{ site.url }}/resources.html">Resources</a></li>
-				</ul>
-			</nav><!-- Nav1 : end -->
-
-		</div><!-- Content : end -->
+		<article class="Body">
+			{{ content }}
+		</article><!-- Body : end -->
 
 		<footer class="Footer">
 
@@ -74,9 +71,7 @@
 					</li>
 				</ul>
 			</address>
-
 			<small class="copyright">&copy; 2009-2012. <a href="{{ site.url }}">EA Newton</a>. All Rights Reserved.</small>
-
 			<a href="http://www.la.bbb.org/BusinessReport.aspx?CompanyID=100072477" rel="external" class="bbb"><img src="http://www.la.bbb.org/images/ClickToCheckVert.gif" width="62" height="100"></a>
 
 		</footer><!-- Footer : end -->
