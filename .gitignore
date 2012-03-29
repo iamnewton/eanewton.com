@@ -4,3 +4,4 @@
 # Global/Project Files
 *.tmproj
 tmtags
+_site/*
