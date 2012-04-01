@@ -1,0 +1,286 @@
+/*--------------------------------------------
+Style Sheet (for FF3, Safari 3, Chrome 1)
+
+version:     3.0
+author:      Newton
+website:     http://apermanentwreck.com
+--------------------------------------------*/
+
+html {
+	font-size: 100%;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+}
+body {
+	margin: 0;
+	border-top: 10px solid rgba(0, 85, 128, .6);
+	background: rgba(0, 85, 128, .6) url(/ui/images/noise.png) repeat left top;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: rgb(50,50,50);
+}
+a:focus {
+	outline: thin dotted #333;
+	outline: 5px auto -webkit-focus-ring-color;
+	outline-offset: -2px;
+}
+a:hover,
+a:active {
+	outline: 0;
+}
+a {
+	color: #0088cc;
+	text-decoration: none;
+}
+a:hover {
+	color: #005580;
+	text-decoration: underline;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	text-rendering: optimizelegibility;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.15), 0 1px 0 rgba(255, 255, 255, 0.8);
+}
+
+h1 {
+	margin: 0 0 20px;
+	font-size: 2.5em;
+}
+p {
+	line-height: 1.4em;
+}
+.FLC { 
+	clear: both; 
+}
+.FLC::after { 
+	display: block; 
+	visibility: hidden; 
+	clear: both; 
+	height: 0; 
+	content: "."; 
+}
+
+.Alert{
+	position: absolute;
+	top: 20px;
+	left: 50%;
+	width: 920px;
+	margin-left: -480px;
+	border:1px solid #bce8f1;
+	border-radius: 4px;
+	padding: 9px 19px;
+	background-color: #d9edf7;
+	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+	color: #3a87ad;
+}
+	.Alert .close {
+		float:right;
+		opacity: 0.25;
+		font-size: 20px;
+		font-weight: bold;
+		line-height: 18px;
+		color: rgb(0,0,0);
+		text-shadow: 0 1px 0 rgb(255,255,255);
+	}
+	.Alert .close:hover {
+		opacity: 0.75;
+		text-decoration: none;
+		cursor:pointer;
+	}
+.Alert:hover {
+	box-shadow: 0 0 1px 1px rgba(0,0,0,.25);
+}
+
+.Lisa {
+	margin: 0;
+	box-shadow: 0 0 5px rgba(0,0,0,.25);
+	border: 1px solid rgba(200,200,200,.5);
+	padding: 9px;
+	background-color: rgb(255,255,255);
+}
+	.Lisa .image {
+		height: auto;
+		border: 0;
+		-ms-interpolation-mode: bicubic;
+		vertical-align: middle;
+	}
+
+.Button {
+	display: inline-block;
+	-webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+	-moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+	box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+	margin: 20px 0;
+	border: 1px solid #cccccc;
+	border-color: #0055cc #0055cc #003580;
+	border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	padding: 9px 39px;
+	background-color: rgb(0, 85, 204);
+	background-image: -moz-linear-gradient(top, #0088cc, #0055cc);
+	background-image: -ms-linear-gradient(top, #0088cc, #0055cc);
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#0088cc), to(#0055cc));
+	background-image: -webkit-linear-gradient(top, #0088cc, #0055cc);
+	background-image: -o-linear-gradient(top, #0088cc, #0055cc);
+	background-image: linear-gradient(top, #0088cc, #0055cc);
+	background-repeat: repeat-x;
+	vertical-align: middle;
+	text-align: center;
+	text-shadow: 0 2px 0 rgba(0, 0, 0, 0.5);
+	color: rgb(255,255,255);
+	font-size: 30px;
+	line-height: normal;
+	cursor: pointer;
+}
+.Button:hover {
+	background-color: #0055cc;
+	background-position: 0 -15px;
+	text-decoration: none;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+	color: #ffffff;
+	-webkit-transition: background-position 0.1s linear;
+	-moz-transition: background-position 0.1s linear;
+	-ms-transition: background-position 0.1s linear;
+	-o-transition: background-position 0.1s linear;
+	transition: background-position 0.1s linear;
+
+}
+.Button:focus {
+	outline: thin dotted #333;
+	outline: 5px auto -webkit-focus-ring-color;
+	outline-offset: -2px;
+}
+.Button:active {
+	-webkit-box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
+	-moz-box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
+	box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
+	outline: 0;
+	background-color: #0055cc;
+	background-image: none;
+}
+.Button[disabled] {
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	background-color: #0055cc;
+	background-image: none;
+	opacity: 0.65;
+	cursor: default;
+}
+.Header,
+.Body {
+	background: rgb(225, 225, 225) url(/ui/images/noise.png) repeat left top;
+}
+.Header .Frame,
+.Intro,
+.Services,
+.Tombstone {
+	border-width: 1px 0;
+	border-style: solid;
+	border-color: rgb(250,250,250) transparent rgb(160,160,160);
+	padding: 50px 0;
+}
+.Frame {
+	display: block;
+	width: 960px;
+	margin: 0 auto;
+}
+.Header {
+	border-top: 1px solid rgb(250,250,250);
+}
+.Header .Frame {
+	border-top: 0;
+	padding-top: 60px;
+}
+	.Header .logo,
+	.Header .tagline {
+		margin: 0;
+	}
+	.Header .tagline {
+		margin-top: -5px;
+		font-size: 1em;
+		font-weight: normal;
+	}
+	.Header .phone {
+		display: block;
+		text-align: right;
+		font-size: 2em;
+		letter-spacing: -2px;
+		text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.15), 0 1px 0 rgba(255, 255, 255, 0.8);
+		color: rgb(50,50,50); 
+	}
+.Body {
+	border-bottom: 1px solid rgb(250,250,250);
+}
+.Intro h1 {
+	margin: 0 0 20px;
+}
+.Intro p,
+.Services p {
+	width: 95%;
+}
+.Services p {
+	clear: both;
+}
+.Services .note {
+	font-size: .8em;
+}
+.Services ul {
+	padding: 0;
+}
+.Services li {
+	display: inline;
+	float: left;
+	width: 210px;
+	margin-right: 20px;
+	margin-bottom: 5px;
+	padding-left: 10px;
+	font-size: 14px;
+	list-style: none;
+}
+.Services li::before {
+	display: inline-block;
+	margin-right: 5px;
+	text-indent: -10px;
+	color: rgb(0, 85, 204);
+	content: '\2022';
+}
+.Services li:nth-child(2n) {
+	margin-right: 0;
+}
+.Services li:last-child {
+	width: 100%;
+}
+.Tombstone {
+	border-bottom: 0;
+}
+	.Tombstone h1 {
+		font-size: 2em;
+	}
+.Footer {
+	clear: both;
+	box-shadow: inset 0 5px 5px rgba(0,0,0,.25);
+	border-top: 1px solid rgb(0, 85, 128);
+	padding: 40px 0 0;
+	text-align: center;
+	color: rgb(255,255,255);
+}
+.Footer .logo {
+	display: inline-block;
+	margin: 0 10px;
+}
+.Footer .copyright {
+	display: block;
+	margin-top: 40px;
+	border-top: 1px solid rgb(0,85,128);
+	padding: 10px;
+	background-color: rgba(0,85,128,.5);
+	text-align: left;
+	text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.5);
+}

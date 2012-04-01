@@ -5,13 +5,14 @@
 
 		<meta charset="utf-8" />
 		<meta name="author" content="Newton, of A Permanent Wreck (http://www.apermanentwreck.com)" />
-		<meta name="description" content="{{ page.description }}" />
+		<meta name="description" content="In addition to providing you with a profile of Lisa Newton, EA and the services we provide, we hope to become a helpful resource tool to you, our valued clients and visitors. We hope you will search around the site to learn a little about us and what we can do for your firm." />
 		<meta name="keywords" content="orange county, california, la habra, taxes, tax, business, services, bookkeeping, professional, enrolled agent, preparer, accounting, financial, irs representation," />
 
-		<title>{{ page.title }} | Lisa Newton, EA - Tax &amp; Business Services</title>
+		<title>Lisa Newton, EA - Tax &amp; Business Services</title>
 
-		<link rel="stylesheet" href="{{ site.url }}/ui/common.css" />
-		<link rel="shortcut" href="{{ site.url }}/favicon.ico" />
+		<link rel="stylesheet" href="/ui/stylesheets/grid.css" />
+		<link rel="stylesheet" href="/ui/stylesheets/common.css" />
+		<link rel="shortcut" href="favicon.ico" />
 		
 		<script>
 			var _gaq = _gaq || [];
@@ -27,44 +28,42 @@
 		</script>
 	</head>
 
-	<body itemscope itemtype="http://schema.org/AccountingService" id="{{ page.id }}">
+	<body itemscope itemtype="http://schema.org/AccountingService">
 
 		<header class="Header">
-			<hgroup class="logo">
-				<h1 class="name" itemprop="name"><a href="{{ site.url }}">Lisa Newton, EA</a></h1>
-				<h2 class="tagline" itemprop="description">Tax &amp; Business Services</h2>
-			</hgroup>
-
-			<nav class="Navigation">
-				<ul class="list">
-					<li class="item"><a href="{{ site.url }}">Home</a></li>
-					<li class="item"><a href="{{ site.url }}/about.html">About</a></li>
-					<li class="item"><a href="{{ site.url }}/services.html">Services</a></li>
-					<li class="item"><a href="{{ site.url }}/resources.html">Resources</a></li>
-				</ul>
-			</nav><!-- Navigation : end -->
-
+			<div class="Frame FLC">
+				<hgroup class="Grid6">
+					<h1 class="logo" itemprop="name"><a href="{{ site.url }}">Lisa Newton, EA</a></h1>
+					<h2 class="tagline" itemprop="description">Tax &amp; Business Services</h2>
+				</hgroup>
+				<p class="Grid6"><a href="tel:15622670351" class="phone">Call (562) 267-0351</a></p>
+			</div>
 		</header><!-- Header : end -->
 
 		<article class="Body">
-			{{ content }}
+			<div class="Frame FLC">
+				{{ content }}
+			</div>
 		</article><!-- Body : end -->
 
-		<footer class="Footer" itemscope itemtype="Organization">
-			<a itemprop="email" href="mailto:lisa@eanewton.com" class="email">Lisa Newton, EA.</a>
-			<address class="vcard">
-				<div itemprop="location" itemscope itemtype="PostalAddress">
-					<div itemprop="streetAddress">1901 E. Lambert Rd. #103</div>
-					<span itemprop="addressLocality">La Habra</span>, <span itemprop="addressRegion">CA</span> <span itemprop="postalCode">90631</span>
-				</div>
-				<ul class="list">
-					<li class="item"><a itemprop="telephone" href="tel:+15622670351" class="tel">(562) 267-0351</a> (work)</li>
-					<li class="item"><a itemprop="faxNumber" href="tel:+15622670353" class="tel">(562) 267-0353</a> (fax)</li>
-				</ul>
-			</address>
-			<small class="copyright">&copy; 2009-2012. EA Newton. All Rights Reserved.</small>
-			<a href="http://www.la.bbb.org/BusinessReport.aspx?CompanyID=100072477" rel="external" class="bbb"><img src="http://www.la.bbb.org/images/ClickToCheckVert.gif" width="62" height="100"></a>
+
+		<footer class="Footer">
+			<div class="Frame">
+				<a href="http://www.la.bbb.org/BusinessReport.aspx?CompanyID=100072477" rel="external" class="logo"><img src="http://www.la.bbb.org/images/ClickToCheckVert.gif" width="62" height="100"></a>
+				<a href="http://proadvisor.intuit.com/content/program/index.jsp" class="logologo"><img src="/ui/images/quickbooks-pro-advisor.png" alt="Certified QuickBooks Pro Advisor" /></a>
+				<a href="http://naea.org" rel="external" class="logo"><img src="/ui/images/naea.png" height="100"></a>
+				<a href="http://csea.org" rel="external" class="logo"><img src="/ui/images/csea.png" height="100"></a>
+			</div>
+			<div class="copyright"><small class="Frame">&copy; 2009-2012. EA Newton. All Rights Reserved.</small></div>
 		</footer><!-- Footer : end -->
+
+		{% if page.notification_enabled %}
+		<div class="Alert">
+			Check out our <a href="/media/.pdf">2011 year-end tax tips</a>
+			<a class="close" data-dismiss="alert">&times;</a>
+		</div>
+		{% endif %}
+
 	</body>
 
 </html>
