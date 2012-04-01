@@ -14,7 +14,7 @@ html {
 body {
 	margin: 0;
 	border-top: 10px solid rgba(0, 85, 128, .6);
-	background: rgba(0, 85, 128, .6) url(/ui/images/noise.png) repeat left top;
+	background: rgba(0, 85, 128, .6) url(../images/noise.png) repeat left top;
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	color: rgb(50,50,50);
 }
@@ -175,7 +175,7 @@ p {
 }
 .Header,
 .Body {
-	background: rgb(225, 225, 225) url(/ui/images/noise.png) repeat left top;
+	background: rgb(225, 225, 225) url(../images/noise.png) repeat left top;
 }
 .Header .Frame,
 .Intro,
