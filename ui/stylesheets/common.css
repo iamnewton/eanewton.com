@@ -358,11 +358,11 @@ p {
 		width: 28%;
 	}
 	.Services li:last-child {
-		width: 100%;
+		width: 93%;
 	}
 	.Alert {
 		left: 50%;
-		width: 768px;
+		width: 766px;
 		margin-left: -384px;
 		border-radius: 0 0 4px 4px;
 		color: rgb(51,51,51);
