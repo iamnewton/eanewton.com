@@ -14,7 +14,7 @@ html {
 body {
 	margin: 0;
 	border-top: 10px solid rgba(0, 85, 128, .6);
-	background: rgba(0, 85, 128, .6) url(/ui/images/noise.png) repeat left top;
+	background: rgba(0, 85, 128, .6) url(../images/noise.png) repeat left top;
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	color: rgb(50,50,50);
 }
@@ -182,7 +182,7 @@ p {
 }
 .Header,
 .Body {
-	background: rgb(225, 225, 225) url(/ui/images/noise.png) repeat left top;
+	background: rgb(225, 225, 225) url(../images/noise.png) repeat left top;
 }
 .Header .Frame,
 .Intro,
@@ -252,7 +252,6 @@ p {
 	margin-bottom: 5px;
 	padding-left: 15px;
 	font-size: 14px;
-	list-style: none;
 }
 .Services li::before,
 .Tombstone li::before {
@@ -264,8 +263,16 @@ p {
 .Tombstone {
 	border-bottom: 0;
 }
-	.Tombstone h1 {
-		font-size: 2em;
+	.Tombstone .location {
+		font-size: .75em;
+	}
+	.Tombstone .location .map {
+		display: block;
+		border: 5px solid rgb(255,255,255);
+	}
+	.Tombstone .location .vcard {
+		font-style: normal;
+		line-height: 1.4em;
 	}
 	.Tombstone address {
 		font-style: normal;
@@ -273,6 +280,14 @@ p {
 	.Tombstone .where {
 		margin-bottom: 50px;
 	}
+	.Tombstone .about {
+		font-size: .75em;
+	}
+	.Tombstone .about ul {
+		padding-left: 0;
+		line-height: 1.4em;
+	}
+
 .Footer {
 	clear: both;
 	box-shadow: inset 0 5px 5px rgba(0,0,0,.25);
@@ -339,4 +354,10 @@ p {
 	.Button {
 		width: 152px;
 	}
+.Footer p {
+	margin-bottom: 30px;
+	font-size: .8em;
+}
+.Footer img {
+	border-radius: 4px;
 }
