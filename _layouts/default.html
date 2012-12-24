@@ -10,7 +10,7 @@
 
 		<title>Lisa Newton, EA - Tax &amp; Business Services</title>
 
-		<link rel="stylesheet" href="/ui/stylesheets/grid.css" />
+		<link rel="stylesheet" href="/ui/stylesheets/fluid-grid.css" />
 		<link rel="stylesheet" href="/ui/stylesheets/common.css" />
 		<link rel="shortcut" href="favicon.ico" />
 		
@@ -32,11 +32,11 @@
 
 		<header class="Header">
 			<div class="Frame FLC">
-				<hgroup class="Grid6">
+				<hgroup class="branding">
 					<h1 class="logo" itemprop="name"><a href="{{ site.url }}">Lisa Newton, EA</a></h1>
 					<h2 class="tagline" itemprop="description">Tax &amp; Business Services</h2>
 				</hgroup>
-				<p class="Grid6"><a href="tel:15622670351" class="phone">Call (562) 267-0351</a></p>
+				<p class="contact"><a href="tel:15622670351" class="phone">Call (562) 267-0351</a></p>
 			</div>
 		</header><!-- Header : end -->
 
@@ -59,8 +59,10 @@
 
 		{% if page.notification_enabled %}
 		<div class="Alert">
-			Check out our <a href="/media/.pdf">2011 year-end tax tips</a>
+			<p class="message">Check out our <a href="/media/2012-year-end-tips.pdf">2012 Year-End Tax Tips</a></p>
+			<!-- 
 			<a class="close" data-dismiss="alert">&times;</a>
+			-->
 		</div>
 		{% endif %}
 
