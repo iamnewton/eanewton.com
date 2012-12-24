@@ -191,12 +191,15 @@ p {
 	border-width: 1px 0;
 	border-style: solid;
 	border-color: rgb(250,250,250) transparent rgb(160,160,160);
-	padding: 50px 0;
+	padding-top: 50px;
+	padding-bottom: 50px;
 }
 .Frame {
 	max-width: 960px;
 	display: block;
 	margin: 0 auto;
+	padding-right: 10px;
+	padding-left: 10px;
 }
 .Header {
 	border-top: 1px solid rgb(250,250,250);
@@ -252,6 +255,7 @@ p {
 	margin-bottom: 5px;
 	padding-left: 15px;
 	font-size: 14px;
+	list-style: none;
 }
 .Services li::before,
 .Tombstone li::before {
@@ -309,6 +313,27 @@ p {
 	text-align: left;
 	text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.5);
 }
+.Footer p {
+	margin-bottom: 30px;
+	font-size: .8em;
+}
+.Footer img {
+	border-radius: 4px;
+}
+@media all and (max-width: 319px) {
+	h1 {
+		font-size: 2em;
+	}
+	.Header .Frame {
+		padding-top: 80px;
+	}
+	.Header .phone {
+		font-size: 1.7em;
+	}
+	.Button {
+		width: 152px;
+	}
+}
 @media all and (min-width: 768px) {
 	.Header .branding,
 	.Header .contact,
@@ -332,32 +357,23 @@ p {
 	.Services li {
 		width: 28%;
 	}
-	.Services li:nth-child() {
-	}
 	.Services li:last-child {
 		width: 100%;
 	}
 	.Alert {
 		left: 50%;
+		width: 768px;
+		margin-left: -384px;
+		border-radius: 0 0 4px 4px;
+		color: rgb(51,51,51);
+	}
+}
+@media all and (min-width: 1024px) {
+	.Alert {
+		left: 50%;
 		width: 960px;
 		margin-left: -480px;
 		border-radius: 0 0 4px 4px;
+		color: rgb(51,51,51);
 	}
-}
-@media all and (max-width: 319px) {
-	h1 {
-		font-size: 2em;
-	}
-	.Header .phone {
-		font-size: 1.7em;
-	}
-	.Button {
-		width: 152px;
-	}
-.Footer p {
-	margin-bottom: 30px;
-	font-size: .8em;
-}
-.Footer img {
-	border-radius: 4px;
 }
