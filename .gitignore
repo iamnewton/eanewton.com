@@ -1,9 +1,7 @@
 # Mac OSX Files
 .DS_Store
-*/.DS_Store
 "Icon\r"
 
 # Global/Project Files
 *.tmproj
 tmtags
-_site/*

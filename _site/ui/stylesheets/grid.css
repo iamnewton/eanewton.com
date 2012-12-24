@@ -1,0 +1,282 @@
+/*--------------------------------------------
+ * Global Templates (for all browsers)
+ *
+ * version:    1.0
+ * author:     Newton
+ * website:    http://eanewton.com/ 
+ --------------------------------------------*/
+.Grid1,
+.Grid2,
+.Grid3,
+.Grid4,
+.Grid5,
+.Grid6,
+.Grid7,
+.Grid8,
+.Grid9,
+.Grid10,
+.Grid11,
+.Grid12 {
+	display: inline;
+	float: left;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+.Push1, .Pull1,
+.Push2, .Pull2,
+.Push3, .Pull3,
+.Push4, .Pull4,
+.Push5, .Pull5,
+.Push6, .Pull6,
+.Push7, .Pull7,
+.Push8, .Pull8,
+.Push9, .Pull9,
+.Push10, .Pull10,
+.Push11, .Pull11 {
+	position: relative;
+}
+
+/* =Children (Alpha ~ First, Omega ~ Last)
+ * --------------------------------------------*/
+.Alpha {
+	margin-left: 0;
+}
+
+.Omega {
+	margin-right: 0;
+}
+
+/* =Columns
+* --------------------------------------------*/
+.Grid1 {
+	width: 60px;
+}
+
+.Grid2 {
+	width: 140px;
+}
+
+.Grid3 {
+	width: 220px;
+}
+
+.Grid4 {
+	width: 300px;
+}
+
+.Grid5 {
+	width: 380px;
+}
+
+.Grid6 {
+	width: 460px;
+}
+
+.Grid7 {
+	width: 540px;
+}
+
+.Grid8 {
+	width: 620px;
+}
+
+.Grid9 {
+	width: 700px;
+}
+
+.Grid10 {
+	width: 780px;
+}
+
+.Grid11 {
+	width: 860px;
+}
+
+.Grid12 {
+	width: 940px;
+}
+
+/* Prefix Extra Space
+* --------------------------------------------*/
+.Prefix1 {
+	padding-left: 80px;
+}
+
+.Prefix2 {
+	padding-left: 160px;
+}
+
+.Prefix3 {
+	padding-left: 240px;
+}
+
+.Prefix4 {
+	padding-left: 320px;
+}
+
+.Prefix5 {
+	padding-left: 400px;
+}
+
+.Prefix6 {
+	padding-left: 480px;
+}
+
+.Prefix7 {
+	padding-left: 560px;
+}
+
+.Prefix8 {
+	padding-left: 640px;
+}
+
+.Prefix9 {
+	padding-left: 720px;
+}
+
+.Prefix10 {
+	padding-left: 800px;
+}
+
+.Prefix11 {
+	padding-left: 880px;
+}
+
+/* Suffix Extra Space
+* --------------------------------------------*/
+.Suffix1 {
+	padding-right: 80px;
+}
+
+.Suffix2 {
+	padding-right: 160px;
+}
+
+.Suffix3 {
+	padding-right: 240px;
+}
+
+.Suffix4 {
+	padding-right: 320px;
+}
+
+.Suffix5 {
+	padding-right: 400px;
+}
+
+.Suffix6 {
+	padding-right: 480px;
+}
+
+.Suffix7 {
+	padding-right: 560px;
+}
+
+.Suffix8 {
+	padding-right: 640px;
+}
+
+.Suffix9 {
+	padding-right: 720px;
+}
+
+.Suffix10 {
+	padding-right: 800px;
+}
+
+.Suffix11 {
+	padding-right: 880px;
+}
+
+/* Push Space
+* --------------------------------------------*/
+.Push1 {
+	left: 80px;
+}
+
+.Push2 {
+	left: 160px;
+}
+
+.Push3 {
+	left: 240px;
+}
+
+.Push4 {
+	left: 320px;
+}
+
+.Push5 {
+	left: 400px;
+}
+
+.Push6 {
+	left: 480px;
+}
+
+.Push7 {
+	left: 560px;
+}
+
+.Push8 {
+	left: 640px;
+}
+
+.Push9 {
+	left: 720px;
+}
+
+.Push10 {
+	left: 800px;
+}
+
+.Push11 {
+	left: 880px;
+}
+
+/* Pull Space
+* --------------------------------------------*/
+.Pull1 {
+	left: -80px;
+}
+
+.Pull2 {
+	left: -160px;
+}
+
+.Pull3 {
+	left: -240px;
+}
+
+.Pull4 {
+	left: -320px;
+}
+
+.Pull5 {
+	left: -400px;
+}
+
+.Pull6 {
+	left: -480px;
+}
+
+.Pull7 {
+	left: -560px;
+}
+
+.Pull8 {
+	left: -640px;
+}
+
+.Pull9 {
+	left: -720px;
+}
+
+.Pull10 {
+	left: -800px;
+}
+
+.Pull11 {
+	left: -880px;
+}
