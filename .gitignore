@@ -3,5 +3,4 @@
 "Icon\r"
 
 # Global/Project Files
-*.tmproj
-tmtags
+_/site
