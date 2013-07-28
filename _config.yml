@@ -1,0 +1,7 @@
+source:         .
+destination:    ./_site
+safe:          true
+timezone:      America/Los_Angeles
+
+port:           4000
+baseurl:        /

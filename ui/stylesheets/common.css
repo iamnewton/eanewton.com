@@ -1,0 +1,379 @@
+/*--------------------------------------------
+Style Sheet (for FF3, Safari 3, Chrome 1)
+
+version:     3.0
+author:      Newton
+website:     http://apermanentwreck.com
+--------------------------------------------*/
+
+html {
+	font-size: 100%;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+}
+body {
+	margin: 0;
+	border-top: 10px solid rgba(0, 85, 128, .6);
+	background: rgba(0, 85, 128, .6) url(../images/noise.png) repeat left top;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: rgb(50,50,50);
+}
+a:focus {
+	outline: thin dotted #333;
+	outline: 5px auto -webkit-focus-ring-color;
+	outline-offset: -2px;
+}
+a:hover,
+a:active {
+	outline: 0;
+}
+a {
+	color: #0088cc;
+	text-decoration: none;
+}
+a:hover {
+	color: #005580;
+	text-decoration: underline;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	text-rendering: optimizelegibility;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.15), 0 1px 0 rgba(255, 255, 255, 0.8);
+}
+
+h1 {
+	margin: 0 0 20px;
+	font-size: 2.5em;
+}
+p {
+	line-height: 1.4em;
+}
+.FLC { 
+	clear: both; 
+}
+.FLC::after { 
+	display: block; 
+	visibility: hidden; 
+	clear: both; 
+	height: 0; 
+	content: "."; 
+}
+
+.Alert {
+	position: absolute;
+	top: 11px;
+	left: 45.1%;
+	width: 99.8%;
+	margin-left: -45%;
+	border: 1px solid #bce8f1;
+	border-width: 1px 0;
+	padding: 9px 0;
+	background-color: #d9edf7;
+	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+	color: #3a87ad;
+}
+	.Alert .message {
+		margin: 0 0 0 4%;
+		padding: 0;
+	}
+	.Alert .close {
+		position: absolute;
+		top: 18%;
+		right: 4%;
+		opacity: 0.25;
+		font-size: 20px;
+		font-weight: bold;
+		line-height: 18px;
+		color: rgb(0,0,0);
+		text-shadow: 0 1px 0 rgb(255,255,255);
+	}
+	.Alert .close:hover {
+		opacity: 0.75;
+		text-decoration: none;
+		cursor:pointer;
+	}
+.Alert:hover {
+	box-shadow: 0 0 1px 1px rgba(0,0,0,.25);
+}
+
+.Lisa {
+	max-width: 333px;
+	margin: 0 auto;
+	box-shadow: 0 0 5px rgba(0,0,0,.25);
+	border: 1px solid rgba(200,200,200,.5);
+	padding: 9px;
+	background-color: rgb(255,255,255);
+}
+	.Lisa .image {
+		width: 100%;
+		height: auto;
+		border: 0;
+		-ms-interpolation-mode: bicubic;
+		vertical-align: middle;
+	}
+
+.Button {
+	display: block;
+	width: 204px;
+	box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+	margin: 20px auto;
+	border: 1px solid #cccccc;
+	border-color: #0055cc #0055cc #003580;
+	border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	padding: 9px 15%;
+	background-color: rgb(0, 85, 204);
+	background-image: -moz-linear-gradient(top, #0088cc, #0055cc);
+	background-image: -ms-linear-gradient(top, #0088cc, #0055cc);
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#0088cc), to(#0055cc));
+	background-image: -webkit-linear-gradient(top, #0088cc, #0055cc);
+	background-image: -o-linear-gradient(top, #0088cc, #0055cc);
+	background-image: linear-gradient(top, #0088cc, #0055cc);
+	background-repeat: repeat-x;
+	vertical-align: middle;
+	text-align: center;
+	text-shadow: 0 2px 0 rgba(0, 0, 0, 0.5);
+	color: rgb(255,255,255);
+	font-size: 30px;
+	line-height: normal;
+	cursor: pointer;
+}
+.Button:hover {
+	background-color: #0055cc;
+	background-position: 0 -15px;
+	text-decoration: none;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+	color: #ffffff;
+	-webkit-transition: background-position 0.1s linear;
+	-moz-transition: background-position 0.1s linear;
+	-ms-transition: background-position 0.1s linear;
+	-o-transition: background-position 0.1s linear;
+	transition: background-position 0.1s linear;
+
+}
+.Button:focus {
+	outline: thin dotted #333;
+	outline: 5px auto -webkit-focus-ring-color;
+	outline-offset: -2px;
+}
+.Button:active {
+	-webkit-box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
+	-moz-box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
+	box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
+	outline: 0;
+	background-color: #0055cc;
+	background-image: none;
+}
+.Button[disabled] {
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	background-color: #0055cc;
+	background-image: none;
+	opacity: 0.65;
+	cursor: default;
+}
+.Header,
+.Body {
+	background: rgb(225, 225, 225) url(../images/noise.png) repeat left top;
+}
+.Header .Frame,
+.Intro,
+.Services,
+.Tombstone {
+	border-width: 1px 0;
+	border-style: solid;
+	border-color: rgb(250,250,250) transparent rgb(160,160,160);
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.Frame {
+	max-width: 960px;
+	display: block;
+	margin: 0 auto;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+.Header {
+	border-top: 1px solid rgb(250,250,250);
+}
+.Header .Frame {
+	border-top: 0;
+	padding-top: 60px;
+}
+	.Header .logo,
+	.Header .tagline {
+		margin: 0;
+	}
+	.Header .tagline {
+		margin-top: -5px;
+		font-size: 1em;
+		font-weight: normal;
+	}
+	.Header .phone {
+		display: block;
+		font-size: 2em;
+		letter-spacing: -2px;
+		text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.15), 0 1px 0 rgba(255, 255, 255, 0.8);
+		color: rgb(50,50,50); 
+	}
+.Body {
+	border-bottom: 1px solid rgb(250,250,250);
+}
+.Intro h1 {
+	margin: 0 0 20px;
+}
+.Intro p,
+.Services p {
+	width: 95%;
+}
+.Services p {
+	clear: both;
+}
+.Services .note {
+	font-size: .9em;
+}
+.Services ul,
+.Tombstone ul {
+	padding: 0;
+}
+.Services li {
+	display: inline;
+	float: left;
+	width: 84%;
+	margin-right: 20px;
+}
+.Services li,
+.Tombstone li {
+	margin-bottom: 5px;
+	padding-left: 15px;
+	font-size: 14px;
+	list-style: none;
+}
+.Services li::before,
+.Tombstone li::before {
+	display: inline-block;
+	text-indent: -15px;
+	color: rgb(0, 85, 204);
+	content: '\2022';
+}
+.Tombstone {
+	border-bottom: 0;
+}
+	.Tombstone .location {
+		font-size: .75em;
+	}
+	.Tombstone .location .map {
+		display: block;
+		border: 5px solid rgb(255,255,255);
+	}
+	.Tombstone .location .vcard {
+		font-style: normal;
+		line-height: 1.4em;
+	}
+	.Tombstone address {
+		font-style: normal;
+	}
+	.Tombstone .where {
+		margin-bottom: 50px;
+	}
+	.Tombstone .about {
+		font-size: .75em;
+	}
+	.Tombstone .about ul {
+		padding-left: 0;
+		line-height: 1.4em;
+	}
+
+.Footer {
+	clear: both;
+	box-shadow: inset 0 5px 5px rgba(0,0,0,.25);
+	border-top: 1px solid rgb(0, 85, 128);
+	padding: 40px 0 0;
+	text-align: center;
+	color: rgb(255,255,255);
+}
+.Footer .logo {
+	display: inline-block;
+	margin: 0 20px 20px;
+}
+.Footer .copyright {
+	display: block;
+	margin-top: 40px;
+	border-top: 1px solid rgb(0,85,128);
+	padding: 10px;
+	background-color: rgba(0,85,128,.5);
+	text-align: left;
+	text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.5);
+}
+.Footer p {
+	margin-bottom: 30px;
+	font-size: .8em;
+}
+.Footer img {
+	border-radius: 4px;
+}
+@media all and (max-width: 319px) {
+	h1 {
+		font-size: 2em;
+	}
+	.Header .Frame {
+		padding-top: 80px;
+	}
+	.Header .phone {
+		font-size: 1.7em;
+	}
+	.Button {
+		width: 152px;
+	}
+}
+@media all and (min-width: 768px) {
+	.Header .branding,
+	.Header .contact,
+	.Intro .welcome,
+	.Intro .Lisa,
+	.Tombstone .where,
+	.Tombstone .who {
+		display: inline;
+		float: left;
+		width: 50%;
+	}
+	.Header .contact {
+		text-align: right;
+	}
+	.Intro .Lisa {
+		float: right;
+	}
+	.Button {
+		margin: 20px 0;
+	}
+	.Services li {
+		width: 28%;
+	}
+	.Services li:last-child {
+		width: 93%;
+	}
+	.Alert {
+		left: 50%;
+		width: 766px;
+		margin-left: -384px;
+		border-radius: 0 0 4px 4px;
+		color: rgb(51,51,51);
+	}
+}
+@media all and (min-width: 1024px) {
+	.Alert {
+		left: 50%;
+		width: 960px;
+		margin-left: -480px;
+		border-radius: 0 0 4px 4px;
+		color: rgb(51,51,51);
+	}
+}
