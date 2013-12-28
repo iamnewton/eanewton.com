@@ -1,5 +1,7 @@
 # Lisa Newton, EA
 
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/chrisopedia/eanewton/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
 Development work on the [Lisa Newton, EA]("http://eanewton.com/") for [A Permanent Wreck]("http://wrck.me/").
 
 ## Technologies Used
