@@ -5,3 +5,4 @@ timezone:      America/Los_Angeles
 
 port:           4000
 baseurl:        /
+markdown:       kramdown
