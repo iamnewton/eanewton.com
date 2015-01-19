@@ -1,8 +1,2 @@
-source:         .
-destination:    ./_site
-safe:          true
-timezone:      America/Los_Angeles
-
-port:           4000
-baseurl:        /
-markdown:       kramdown
+timezone: America/Los_Angeles
+exclude: [ 'README.md', 'Gemfile', 'Gemfile.lock' ]
