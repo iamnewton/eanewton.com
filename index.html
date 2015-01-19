@@ -21,35 +21,17 @@ notification_enabled: true
 </section>
 
 <section id="services" class="Services FLC">
-		<h1>Services Offered</h1>
+	<h1>Services Offered</h1>
 
-		<p>Our firm offers a wide range of services to our individual and business clients. Because our firm is relatively small, our clients benefit by getting personalized, quality service that is beyond comparison. Below we have listed the services that we offer.</p>
+	<p>Our firm offers a wide range of services to our individual and business clients. Because our firm is relatively small, our clients benefit by getting personalized, quality service that is beyond comparison. Below we have listed the services that we offer.</p>
 
-		<ul class="FLC">
-			<li>Accounting Services</li>
-			<li>IRS Representation</li>
-			<li>Audit Services</li>
-			<li>Other Services</li>
-			<li>Bookkeeping/Write-up</li>
-			<li>Payroll Services</li>
-			<li>Business Consulting</li>
-			<li>QuickBooks Pro Advisor</li>
-			<li>Business Entity Selection</li>
-			<li>Retirement Planning</li>
-			<li>Management Advisory Services</li>
-			<li>Cash Flow &amp; Budgeting Analysis</li>
-			<li>Sales Tax Services</li>
-			<li>Consulting Services</li>
-			<li>Tax Planning</li>
-			<li>Estate &amp; Trust Tax Preparation</li>
-			<li>Tax Preparation</li>
-			<li>Tax Services</li>
-			<li>Financial Statements</li>
-			<li>Accounting Software Selection &amp; Implementation</li>
-		</ul>
+	<ul class="FLC">
+		{% for service in site.data.services %}
+			<li>{{ service }}</li>
+		{% endfor %}
+	</ul>
 
-		<p class="note">As the list is not all-inclusive, please feel free to <a href="mailto:lisa@eanewton.com">inquire</a> about a service if it's not listed. If it's not a service we provide, we would be   happy to refer you to a qualified professional.</p>
-
+	<p class="note">As the list is not all-inclusive, please feel free to <a href="mailto:lisa@eanewton.com">inquire</a> about a service if it's not listed. If it's not a service we provide, we would be   happy to refer you to a qualified professional.</p>
 </section>
 
 <section id="about" class="Tombstone FLC">
