@@ -1,0 +1,30 @@
+- name: Better Business Bureau
+  url: http://www.la.bbb.org/BusinessReport.aspx?CompanyID=100072477
+  image:
+    url: http://www.la.bbb.org/images/ClickToCheckVert.gif
+    alt: Better Business Bureau logo
+  active: false
+- name: QuickBooks Advisor
+  url: http://proadvisor.intuit.com/content/program/index.jsp
+  image:
+    url: ui/images/quickbooks-pro-advisor.png
+    alt: Certified QuickBooks Pro Advisor
+  active: true
+- name: National Association of Enrolled Agents
+  url: http://naea.org/
+  image:
+    url: ui/images/naea.png
+    alt: NAEA logo
+  active: true
+- name: California Society of Enrolled Agents
+  url: http://csea.org/
+  image:
+    url: ui/images/csea.png
+    alt: CSEA logo
+  active: true
+- name: Brea Chamber of Commerce
+  url: http://www.breachamber.com/
+  image:
+    url: ui/images/brea-chamber-commerce.png
+    alt: Brea Chamber of Commerce logo
+  active: true
