@@ -3,7 +3,7 @@
   image:
     url: http://www.la.bbb.org/images/ClickToCheckVert.gif
     alt: Better Business Bureau logo
-  active: false
+  active: true
 - name: QuickBooks Advisor
   url: http://proadvisor.intuit.com/content/program/index.jsp
   image:
