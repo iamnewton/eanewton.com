@@ -1,7 +1,7 @@
 - name: Better Business Bureau
   url: http://www.la.bbb.org/BusinessReport.aspx?CompanyID=100072477
   image:
-    url: http://seal-sandiego.bbb.org/seals/blue-seal-81-171-lisa-newton-tax-and-business-services-100072477.png
+    url: ui/images/bbb.png
     alt: Better Business Bureau logo
   active: true
 - name: QuickBooks Advisor
