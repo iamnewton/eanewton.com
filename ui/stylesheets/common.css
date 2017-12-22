@@ -53,15 +53,15 @@ h1 {
 p {
 	line-height: 1.4em;
 }
-.FLC { 
-	clear: both; 
+.FLC {
+	clear: both;
 }
-.FLC::after { 
-	display: block; 
-	visibility: hidden; 
-	clear: both; 
-	height: 0; 
-	content: "."; 
+.FLC::after {
+	display: block;
+	visibility: hidden;
+	clear: both;
+	height: 0;
+	content: ".";
 }
 
 .Alert {
@@ -222,7 +222,7 @@ p {
 		font-size: 2em;
 		letter-spacing: -2px;
 		text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.15), 0 1px 0 rgba(255, 255, 255, 0.8);
-		color: rgb(50,50,50); 
+		color: rgb(50,50,50);
 	}
 .Body {
 	border-bottom: 1px solid rgb(250,250,250);
@@ -299,6 +299,9 @@ p {
 	padding: 40px 0 0;
 	text-align: center;
 	color: rgb(255,255,255);
+}
+.Footer .Frame {
+	max-width: 1000px;
 }
 .Footer .logo {
 	display: inline-block;

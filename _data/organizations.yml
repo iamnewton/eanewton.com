@@ -3,28 +3,33 @@
   image:
     url: 'http://seal-sandiego.bbb.org/seals/blue-seal-250-52-whitetxt-bbb-100072477.png'
     alt: Lisa Newton Tax and Business Services BBB Business Review
+    height: 52
   active: true
 - name: QuickBooks Advisor
   url: http://proadvisor.intuit.com/content/program/index.jsp
   image:
     url: ui/images/quickbooks-pro-advisor.png
     alt: Certified QuickBooks Pro Advisor
+    height: 100
   active: true
 - name: National Association of Enrolled Agents
   url: http://naea.org/
   image:
     url: ui/images/naea.png
     alt: NAEA logo
+    height: 100
   active: true
 - name: California Society of Enrolled Agents
   url: http://csea.org/
   image:
     url: ui/images/csea.png
     alt: CSEA logo
+    height: 100
   active: true
 - name: Brea Chamber of Commerce
   url: http://www.breachamber.com/
   image:
     url: ui/images/brea-chamber-commerce.png
     alt: Brea Chamber of Commerce logo
+    height: 100
   active: true

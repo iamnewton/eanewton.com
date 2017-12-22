@@ -49,7 +49,7 @@
 				<p>Lisa is a proud member of the following</p>
 				{% for organization in site.data.organizations %}
 					{% if organization.active %}
-						<a href="{{ organization.url }}" rel="external" class="logo"><img src="{{ organization.image.url }}" alt="{{ organization.image.alt }}" height="100" /></a>
+						<a href="{{ organization.url }}" rel="external" class="logo"><img src="{{ organization.image.url }}" alt="{{ organization.image.alt }}" height="{{ organization.image.height }}" /></a>
 					{% endif %}
 				{% endfor %}
 			</div>
