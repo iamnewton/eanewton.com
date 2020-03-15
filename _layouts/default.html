@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<meta charset="utf-8" />
-		<meta name="author" content="Chris Newton (http://chrisnewton.me)" />
+		<meta name="author" content="Newton" />
 		<meta name="description" content="In addition to providing you with a profile of Lisa Newton, EA and the services we provide, we hope to become a helpful resource tool to you, our valued clients and visitors. We hope you will search around the site to learn a little about us and what we can do for your firm." />
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -11,21 +11,17 @@
 		<link rel="stylesheet" href="/ui/stylesheets/common.css" />
 		<link rel="shortcut" href="favicon.ico" />
 
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-2302474-6"></script>
 		<script>
-			var _gaq = _gaq || [];
-			_gaq.push(['_setAccount', 'UA-2302474-6']);
-			_gaq.push(['_trackPageview']);
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
 
-			(function() {
-				var ga = document.createElement('script');
-				ga.async = true;
-				ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-				var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-			})();
+			gtag('config', 'UA-2302474-6');
 		</script>
 	</head>
 
-	<body itemscope itemtype="http://schema.org/AccountingService">
+	<body itemscope itemtype="https://schema.org/AccountingService">
 
 		<header class="Header">
 			<div class="Frame FLC">

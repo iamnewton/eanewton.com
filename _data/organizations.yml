@@ -1,33 +1,33 @@
 - name: Better Business Bureau
-  url: 'https://www.bbb.org/sdoc/business-reviews/business-services/lisa-newton-tax-and-business-services-in-la-habra-ca-100072477/#sealclick'
+  url: 'https://www.bbb.org/us/ca/la-habra/profile/bookkeeping-services/lisa-newton-tax-and-business-services-1126-100072477#sealclick'
   image:
-    url: 'http://seal-sandiego.bbb.org/seals/blue-seal-250-52-whitetxt-bbb-100072477.png'
+    url: 'https://seal-sandiego.bbb.org/seals/blue-seal-250-52-whitetxt-bbb-100072477.png'
     alt: Lisa Newton Tax and Business Services BBB Business Review
     height: 52
   active: true
 - name: QuickBooks Advisor
-  url: http://proadvisor.intuit.com/content/program/index.jsp
+  url: https://quickbooks.intuit.com/accountants/proadvisor/
   image:
     url: ui/images/quickbooks-pro-advisor.png
     alt: Certified QuickBooks Pro Advisor
     height: 100
   active: true
 - name: National Association of Enrolled Agents
-  url: http://naea.org/
+  url: https://naea.org/
   image:
     url: ui/images/naea.png
     alt: NAEA logo
     height: 100
   active: true
 - name: California Society of Enrolled Agents
-  url: http://csea.org/
+  url: https://csea.org/
   image:
     url: ui/images/csea.png
     alt: CSEA logo
     height: 100
   active: true
 - name: Brea Chamber of Commerce
-  url: http://www.breachamber.com/
+  url: https://www.breachamber.com/
   image:
     url: ui/images/brea-chamber-commerce.png
     alt: Brea Chamber of Commerce logo
