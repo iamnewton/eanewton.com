@@ -2,11 +2,11 @@
 <html>
 	<head>
 		<meta charset="utf-8" />
-		<meta name="author" content="Newton" />
-		<meta name="description" content="In addition to providing you with a profile of Lisa Newton, EA and the services we provide, we hope to become a helpful resource tool to you, our valued clients and visitors. We hope you will search around the site to learn a little about us and what we can do for your firm." />
+		<meta name="author" content="Chris Newton (http://chrisnewton.me)" />
+		<meta name="description" content="Lisa Newton, EA is merging with Stivers Consulting & Tax Services, Inc." />
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 
-		<title>Lisa Newton, EA - Tax &amp; Business Services</title>
+		<title>Lisa Newton, EA is merging with Stivers Consulting & Tax Services, Inc.</title>
 
 		<link rel="stylesheet" href="/ui/stylesheets/common.css" />
 		<link rel="shortcut" href="favicon.ico" />
@@ -21,17 +21,7 @@
 		</script>
 	</head>
 
-	<body itemscope itemtype="https://schema.org/AccountingService">
-
-		<header class="Header">
-			<div class="Frame FLC">
-				<hgroup class="branding">
-					<h1 class="logo" itemprop="name"><a href="/">Lisa Newton, EA</a></h1>
-					<h2 class="tagline" itemprop="description">Tax &amp; Business Services</h2>
-				</hgroup>
-				<p class="contact"><a href="tel:15622670351" class="phone">Call (562) 267-0351</a></p>
-			</div>
-		</header><!-- Header : end -->
+	<body itemscope itemtype="http://schema.org/AccountingService">
 
 		<article class="Body">
 			<div class="Frame FLC">
@@ -40,15 +30,6 @@
 		</article><!-- Body : end -->
 
 		<footer class="Footer">
-			<div class="Frame">
-				<h1>Organizations</h1>
-				<p>Lisa is a proud member of the following</p>
-				{% for organization in site.data.organizations %}
-					{% if organization.active %}
-						<a href="{{ organization.url }}" rel="external" class="logo"><img src="{{ organization.image.url }}" alt="{{ organization.image.alt }}" height="{{ organization.image.height }}" /></a>
-					{% endif %}
-				{% endfor %}
-			</div>
 			<div class="copyright"><small class="Frame">&copy; 2009-2013. EA Newton. All Rights Reserved.</small></div>
 		</footer><!-- Footer : end -->
 

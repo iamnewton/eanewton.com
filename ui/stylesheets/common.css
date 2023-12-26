@@ -229,6 +229,13 @@ p {
 .Intro h1 {
 	margin: 0 0 20px;
 }
+	.Intro .vcard {
+		font-style: normal;
+		line-height: 1.4em;
+	}
+	.Intro address {
+		font-style: normal;
+	}
 .Intro p,
 .Services p {
 	width: 95%;
@@ -280,9 +287,6 @@ p {
 	.Tombstone address {
 		font-style: normal;
 	}
-	.Tombstone .where {
-		margin-bottom: 50px;
-	}
 	.Tombstone .about {
 		font-size: .75em;
 	}
@@ -295,7 +299,7 @@ p {
 	clear: both;
 	box-shadow: inset 0 5px 5px rgba(0,0,0,.25);
 	border-top: 1px solid rgb(0, 85, 128);
-	padding: 40px 0 0;
+	padding: 0;
 	text-align: center;
 	color: rgb(255,255,255);
 }
@@ -308,10 +312,8 @@ p {
 }
 .Footer .copyright {
 	display: block;
-	margin-top: 40px;
 	border-top: 1px solid rgb(0,85,128);
 	padding: 10px;
-	background-color: rgba(0,85,128,.5);
 	text-align: left;
 	text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.5);
 }
@@ -343,9 +345,7 @@ p {
 	.Intro .Lisa,
 	.Tombstone .where,
 	.Tombstone .who {
-		display: inline;
-		float: left;
-		width: 50%;
+		width: 72%;
 	}
 	.Header .contact {
 		text-align: right;
